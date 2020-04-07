@@ -1,0 +1,320 @@
+@media (min-width: 1400px) {
+	.container {
+		max-width:  1300px;
+	}
+}
+
+
+@media (max-width: 1199.98px) {
+	.carousel-control-next, .carousel-control-prev {
+		display: none;
+	}
+}
+
+
+@media (max-width: 991.98px) {
+	.banner-last-area {
+	  margin-top: 45px;
+	}
+
+	.form__input {
+		width: 375px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+	  display: block;
+	  padding: 10px 15px;
+	}
+
+	.navbar-nav .nav-item .nav-link:hover::before {
+	  -webkit-animation: shine 0.5s;
+	     -moz-animation: shine 0.5s;
+	       -o-animation: shine 0.5s;
+	          animation: shine 0.5s;
+	}
+
+	.navbar-nav .nav-item .nav-link::before {
+	  left: -120px;
+	  width: 120px;
+	}
+
+	@-webkit-keyframes shine {
+	  100% {
+	    left: 0;
+	  }
+	}
+
+	@-moz-keyframes shine {
+	  100% {
+	    left: 0;
+	  }
+	}
+
+	@-o-keyframes shine {
+	  100% {
+	    left: 0;
+	  }
+	}
+
+	@keyframes shine {
+	  100% {
+	    left: 0;
+	  }
+	}
+
+	header nav {
+	  padding: 15px 0 !important;
+	}
+
+	.banner-area {
+	  padding: 75px 0 0;
+	}
+
+	.features-sec {
+	  padding: 80px 0 50px;
+	}	
+
+	.features-sec-top {
+	  margin: 0 auto 35px;
+	}
+
+	.contact-sec {
+	  padding: 80px 0 37.5px;
+	}
+
+	footer {
+	  padding: 37.5px 0 55px;
+	}
+}
+
+
+@media (max-width: 767.98px) {
+	.navbar-brand img {
+	  width: 140px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+	  font-size: 18px;
+	}
+
+	.banner-area {
+	  padding: 65px 0 0;
+	}
+
+	.banner-first-area p {
+	  margin-bottom: 25px;
+	}
+
+	.banner-last-area {
+	  margin-top: 35px;
+	}
+
+	.banner-last-area-img-wrap {
+	  max-width: 275px;
+	}
+
+	.carousel {
+	  padding-bottom: 80px;
+	}
+
+	.features-sec {
+	  padding: 70px 0 45px;
+	}
+
+	.features-item {
+	  max-width: 375px;
+	  margin: 0 auto;
+	  padding: 35px 20px;
+	}
+
+	.contact-sec {
+	  padding: 70px 0 35px;
+	}
+
+	.form__input {
+	  width: 300px;
+	}
+
+	.form__button {
+		padding: 12px 20px;
+	}
+
+	.btn-10:hover:before, .btn-10:hover:after {
+	  width: 96.67px;
+	}
+
+	.contact-top p {
+	  margin-bottom: 20px;
+	}
+
+	.contact-bottom {
+	  margin-top: 55px;
+	}
+
+	.contact-bottom ul li a {
+	  margin: 0 10px;
+	}
+
+	.contact-bottom ul li {
+	  padding: 0;
+	}
+
+	footer {
+	  padding: 30px 0 50px;
+	}
+
+	.footer-first {
+	  margin-bottom: 35px;
+	}
+
+	.footer-menu ul {
+	  margin: 0;
+	  padding: 0;
+	}	
+}
+
+
+@media (max-width: 575.98px) {
+	.container {
+	  padding: 0 25px;
+	}
+
+	header nav {
+	  padding: 10px 0 !important;
+	}
+
+	.navbar-toggler {
+	  margin-right: -20px !important;
+	}
+
+	.banner-area {
+	  padding: 55px 0 0;
+	}	
+
+	.form__input {
+	  width: 250px;
+	}
+
+	.form__placeholder {
+	  width: 120px;
+	}
+
+	h1 {
+	  font-size: 28px;
+	}
+
+	.features-sec-top p {
+	  font-size: 18px;
+	  margin-top: 20px;
+	}
+
+	.features-sec-top {
+	  margin: 0 auto 25px;
+	}
+
+	.features-item {
+	  padding: 20px 15px;
+	  margin-bottom: 10px;
+	}
+
+	.features-icon {
+	  font-size: 40px;
+	}
+
+	.contact-top h1 {
+	  font-size: 29px;
+	}
+
+	.contact-top p {
+	  font-size: 17px;
+	  margin-top: 25px;
+	}
+
+	.banner-last-area-img-wrap::after {
+	  bottom: 7px;
+	  font-size: 18px;
+	}
+}
+
+
+@media (max-width: 425px) {
+	.banner-last-area-img-wrap {
+	  max-width: 250px;
+	}
+
+	.features-sec-top p {
+	  margin-bottom: 15px;
+	}
+
+	.contact-sec {
+	  padding: 60px 0 35px;
+	}
+
+	.form__button {
+	  position: absolute;
+	  top: 36px;
+	  right: 101px;
+	}
+
+	.contact-top p {
+	  margin-bottom: 10px;
+	}
+
+	.contact-bottom {
+	  margin-top: 100px;
+	}
+
+	footer {
+	  padding: 20px 0 40px;
+	}
+
+	.footer-menu {
+	  margin-bottom: 10px;
+	}
+
+	.form__input {
+	  width: 300px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+	  font-size: 17px;
+	}
+}
+
+
+@media (max-width: 375px) {
+	.container {
+	  padding: 0 20px;
+	}	
+
+	.form__input {
+	  width: 280px;
+	}
+
+	.form__button {
+	  right: 91px;
+	}
+	
+	.navbar-brand img {
+	  width: 130px;
+	}
+}
+
+
+@media (max-width: 320px) {
+	.features-item {
+	  padding: 15px 5px;
+	}
+
+	.form__input {
+	  width: 220px;
+	}
+
+	.form__button {
+	  right: 61px;
+	}
+
+	.banner-area {
+	  padding: 40px 0 0;
+	}
+}
