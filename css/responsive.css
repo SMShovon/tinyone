@@ -85,6 +85,10 @@
 	footer {
 	  padding: 37.5px 0 55px;
 	}
+
+	.footer-menu ul li a::before {
+	  bottom: -1px;
+	}
 }
 
 
